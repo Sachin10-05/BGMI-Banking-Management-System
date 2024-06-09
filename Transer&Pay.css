@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #c6c7c7;
+    background-color: #f9fafc;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.transfer-options {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.transfer-option {
+    width: 23%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.transfer-option i {
+    font-size: 3em;
+    color: #ff9900;
+    margin-bottom: 10px;
+}
+
+.transfer-option h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.transfer-option p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.disclaimer {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.disclaimer h2 {
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.disclaimer ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.disclaimer li {
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: #eee;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer li {
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer i {
+    font-size: 1.5em;
+    color: #666;
+}
+
+.button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #ffcc00;
+}
